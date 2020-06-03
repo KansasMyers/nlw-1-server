@@ -1,5 +1,2 @@
 # Folder of dependencies
 /node_modules
-
-# Cache files
-package-lock.json
