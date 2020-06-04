@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "commit": "git-cz",
-    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts"
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts",
+    "knex:seed": "knex seed:run --knexfile knexfile.ts"
   },
   "author": "José Victor",
   "license": "ISC",
