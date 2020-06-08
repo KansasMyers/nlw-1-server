@@ -1,2 +1,6 @@
 # Folder of dependencies
 /node_modules
+uploads/*
+!uploads/.gitkeep
+
+*.sqlite
